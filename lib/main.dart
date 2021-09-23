@@ -1,4 +1,5 @@
 import 'package:e_wallet/pages/splash_screen.dart';
+import 'package:e_wallet/pages/step_one_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       routes: {
         '/': (context) => SplashScreen(),
+        '/step-one': (context) => StepOnePage(),
       },
     );
   }
