@@ -28,7 +28,15 @@ class StepOnePage extends StatelessWidget {
                     width: 278,
                     height: 278,
                   ),
-                )
+                ),
+                SizedBox(
+                  height: 120,
+                ),
+                Container(
+                  color: whiteColor,
+                  width: double.infinity,
+                  height: 266,
+                ),
               ],
             ),
           ),
