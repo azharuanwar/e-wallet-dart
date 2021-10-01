@@ -1,10 +1,9 @@
-import 'package:e_wallet/pages/step_third.dart';
 import 'package:flutter/material.dart';
 
 import '../theme.dart';
 
-class StepTwo extends StatelessWidget {
-  const StepTwo({Key? key}) : super(key: key);
+class StepThird extends StatelessWidget {
+  // const StepThird({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +36,7 @@ class StepTwo extends StatelessWidget {
                   ),
                   Center(
                     child: Image.asset(
-                      'assets/image_step_two.png',
+                      'assets/image_step_third.png',
                       width: 278,
                     ),
                   ),
@@ -52,14 +51,16 @@ class StepTwo extends StatelessWidget {
             width: MediaQuery.of(context).size.width,
             height: MediaQuery.of(context).size.height * 0.30,
             decoration: BoxDecoration(
-              color: whiteColor,
-            ),
+                color: whiteColor,
+                borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(25),
+                    topRight: Radius.circular(25))),
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: 30, vertical: 30),
               child: Column(
                 children: [
                   Text(
-                    'Fast Transaction',
+                    'Enjoy Everday',
                     style: titleText,
                   ),
                   SizedBox(
