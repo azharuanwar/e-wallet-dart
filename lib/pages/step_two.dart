@@ -1,8 +1,10 @@
-import 'package:e_wallet/pages/step_two.dart';
 import 'package:flutter/material.dart';
-import 'package:e_wallet/theme.dart';
 
-class StepOnePage extends StatelessWidget {
+import '../theme.dart';
+
+class StepTwo extends StatelessWidget {
+  const StepTwo({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
